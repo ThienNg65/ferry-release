@@ -28,11 +28,11 @@ Ferry brings file management, terminal access, live logs, and server monitoring 
 
 ## Download
 
-**Windows 10 or later, x64.** Download the latest `Ferry-Setup-*.exe` installer from the [Releases](../../releases) page once public distribution begins. Until then, existing builds are available from the [original Ferry releases](https://github.com/ThienNg65/ferry/releases).
+**Windows 10 or later, x64.** Download the latest `Ferry-Setup-*.exe` installer from the [latest release](../../releases/latest).
 
 Ferry currently distributes an unsigned installer. Windows SmartScreen may ask you to confirm before running it.
 
-Updates are delivered through GitHub Releases. Existing users of older versions may need to install a bridge version before updates are served from this repository.
+Updates are delivered through this repository's GitHub Releases. **Existing users of v0.18.0 or earlier:** upgrade to **v0.18.1** while the original repository is public, or install v0.18.1 manually. This bridge version switches future update checks to `ferry-release`.
 
 ## Support
 
