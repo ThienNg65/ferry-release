@@ -2,6 +2,12 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## v0.18.1 - 2026-11-11
+
+- Moved future update delivery to the public `ferry-release` repository.
+- Published a transition installer to both the existing and the new release feeds to preserve updates for current users.
+- No user-facing SFTP workflow changes.
+
 ## v0.18.0 - 2026-11-11
 
 - Added host key fingerprint confirmation when connecting to a new server.
