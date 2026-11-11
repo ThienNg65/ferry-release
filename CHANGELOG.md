@@ -2,6 +2,13 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.18.3 (2026-11-11)
+
+### Bug Fixes
+
+* exclude Node release tests from Vitest
+* use GraphQL branchName when signing public releases
+
 ## v0.18.1 - 2026-11-11
 
 - Moved future update delivery to the public `ferry-release` repository.
