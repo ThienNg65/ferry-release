@@ -2,6 +2,12 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.19.0 (2026-11-11)
+
+### Features
+
+* include P2/P3 UX refinements in release notes
+
 ## 0.18.4 (2026-11-11)
 
 ### Bug Fixes
