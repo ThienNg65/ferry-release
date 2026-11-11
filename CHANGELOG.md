@@ -2,6 +2,12 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.18.4 (2026-11-11)
+
+### Bug Fixes
+
+* correctly detect missing public release tags
+
 ## 0.18.3 (2026-11-11)
 
 ### Bug Fixes
