@@ -2,6 +2,13 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.19.2 (2026-11-12)
+
+### Bug Fixes
+
+* show window on load failure and init updater before manual use
+* single instance, no blank-window freeze, safer update install
+
 ## 0.19.1 (2026-11-11)
 
 ### Documentation
