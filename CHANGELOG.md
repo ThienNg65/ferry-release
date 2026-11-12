@@ -2,6 +2,12 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.20.0 (2026-11-12)
+
+### Features
+
+* redesign settings dialog with sidebar tabs
+
 ## 0.19.2 (2026-11-12)
 
 ### Bug Fixes
