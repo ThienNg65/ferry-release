@@ -10,9 +10,12 @@ Public release notes for Ferry. Download binaries from [Releases](../../releases
 
 ## 0.19.0 (2026-11-11)
 
-### Features
+### Highlights
 
-* include P2/P3 UX refinements in release notes
+- **File browsing:** Compare local and remote folders, navigate back and forward, and toggle hidden files.
+- **Transfers:** Pause and retry transfers with clearer progress and speed indicators.
+- **Connections:** Import SSH configurations, back up saved sites, and use SSH keys or agents for quick connections.
+- **Other improvements:** Expanded file permissions, log keyword highlighting, and better keyboard navigation.
 
 ## 0.18.4 (2026-11-11)
 
