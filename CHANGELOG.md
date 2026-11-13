@@ -2,6 +2,21 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.21.0 (2026-11-13)
+
+### Features
+
+* Enhancements of monitoring and logs tailing
+
+### Bug Fixes
+
+* align monitor history getter with compact CPU samples
+* keep terminal search compatible with optional log highlight keywords
+
+### Performance Improvements
+
+* smooth live monitoring and log tail interactions
+
 ## 0.20.0 (2026-11-12)
 
 ### Features
