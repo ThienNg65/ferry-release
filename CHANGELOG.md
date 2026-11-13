@@ -2,6 +2,22 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.22.0 (2026-11-13)
+
+### Features
+
+* introduce consistent responsive motion for dock and files
+* polished motion for dock, folders, and tabs
+
+### Bug Fixes
+
+* avoid terminal layout squeeze during dock transitions
+* preserve smooth site-tab exit layout
+
+### Documentation
+
+* document motion invariants and align template formatting
+
 ## 0.21.0 (2026-11-13)
 
 ### Features
