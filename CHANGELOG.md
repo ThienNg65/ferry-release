@@ -2,6 +2,12 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.24.2 (2026-11-14)
+
+### Bug Fixes
+
+* fix Neutralino window maximize, titlebar drag, and bottom dock resize
+
 ## 0.24.1 (2026-11-14)
 
 ### Bug Fixes
