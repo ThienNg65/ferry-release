@@ -2,6 +2,22 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.24.1 (2026-11-14)
+
+### Bug Fixes
+
+* correct migration process helper template literals
+* prevent false-negative Electron migration release failures
+* recognize Windows 8.3 process paths in migration release gate
+
+### Tests
+
+* stop migrated processes before uninstall verification
+
+### Continuous Integration
+
+* run real Electron-to-Neutralino migration E2E for migration PRs
+
 ## 0.23.1 (2026-11-14)
 
 ### Bug Fixes
