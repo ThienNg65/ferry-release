@@ -2,6 +2,12 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.23.1 (2026-11-14)
+
+### Bug Fixes
+
+* ensure Neutralino installers are built and recover failed releases
+
 ## 0.22.0 (2026-11-13)
 
 ### Features
