@@ -2,6 +2,16 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.26.1 (2026-11-15)
+
+### Bug Fixes
+
+* accept scope on bookmarks:create and enable remote bookmarks for quick connect
+* auto-refresh destination pane after transfers without losing selection or scroll
+* raise muted and dimmed text contrast to WCAG AA in light and dark themes
+* render privacy policy and terms markdown as semantic HTML with safe external links
+* surface error toast and alert banner on failed mkdir and touch
+
 ## 0.26.0 (2026-11-14)
 
 ### Features
