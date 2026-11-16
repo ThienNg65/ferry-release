@@ -2,6 +2,12 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.27.1 (2026-11-16)
+
+### Bug Fixes
+
+* default to full location paths with shorten toggle and clean accent picker layout
+
 ## 0.27.0 (2026-11-16)
 
 ### Features
