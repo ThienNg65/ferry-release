@@ -2,6 +2,22 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.27.0 (2026-11-16)
+
+### Features
+
+* save active Quick Connect session as site and add recent connections dropdown
+
+### Bug Fixes
+
+* add inline port validation and aria-invalid across port fields
+* collapse middle breadcrumb segments and wrap long fingerprint errors
+* disable preview actions on error, loading, and broken symlinks
+* Fix/p2 ux polish and a11y
+* improve color picker accessibility, modal close labels, and checkbox shape
+* offset toaster above bottom dock and suppress benign ResizeObserver loop errors
+* polish hex error state, dropdown close focus, and breadcrumb edge cases
+
 ## 0.26.1 (2026-11-15)
 
 ### Bug Fixes
