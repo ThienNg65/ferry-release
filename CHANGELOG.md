@@ -2,6 +2,12 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.28.1 (2026-11-16)
+
+### Bug Fixes
+
+* polish right-dock tabs, symlink truncation, breadcrumb a11y, and reconnect banner
+
 ## 0.28.0 (2026-11-16)
 
 ### Features
