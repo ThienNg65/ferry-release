@@ -2,6 +2,20 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.28.0 (2026-11-16)
+
+### Features
+
+* add Ctrl+backtick terminal toggle, dock tooltips, and right-split dock layout
+* add session tab context menu with disconnect, reconnect, duplicate, and close others
+* display inline symlink targets and broken badge in file rows
+* Feat/p3 power user enhancements
+
+### Bug Fixes
+
+* catch tab context menu reconnect rejections and polish review findings
+* focus F2 rename input reliably and add Quick Connect reconnect banner
+
 ## 0.27.1 (2026-11-16)
 
 ### Bug Fixes
