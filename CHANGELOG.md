@@ -2,6 +2,12 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.29.0 (2026-11-17)
+
+### Features
+
+* refine UI with minimalist HIG design tokens, dock, explorer, and monitor polish
+
 ## 0.28.1 (2026-11-16)
 
 ### Bug Fixes
