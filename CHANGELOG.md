@@ -2,6 +2,12 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.29.1 (2026-11-17)
+
+### Performance Improvements
+
+* **terminal:** reduce keystroke echo latency 3.47x and double bulk throughput
+
 ## 0.29.0 (2026-11-17)
 
 ### Features
