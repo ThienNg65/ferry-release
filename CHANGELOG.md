@@ -2,6 +2,20 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 1.0.0 (2026-11-18)
+
+### Features
+
+* add Microsoft Store MSIX packaging and CI workflow
+
+### Bug Fixes
+
+* enforce non-zero MSIX major version for Store
+
+### Miscellaneous Chores
+
+* **ci:** remove obsolete Electron-to-Neutralino migration workflow
+
 ## 0.32.0 (2026-11-18)
 
 ### Features
