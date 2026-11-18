@@ -2,6 +2,15 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.30.1 (2026-11-18)
+
+### Bug Fixes
+
+* **release:** harden NSIS process cleanup, packaging, and update manifest verification
+* **update-ui:** guard update restarts, surface errors, and harden store state
+* **update:** harden auto-update lifecycle, UI, and release verification
+* **update:** harden sidecar updater lifecycle, security, and shutdown handoff
+
 ## 0.30.0 (2026-11-18)
 
 ### Features
