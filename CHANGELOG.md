@@ -2,6 +2,27 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.31.0 (2026-11-18)
+
+### Features
+
+* Fix/log window readiness & new ui
+* **ui:** implement Modern Glass UI redesign and enhance dock/pane bars
+
+### Bug Fixes
+
+* **tail:** harden log window readiness, lifecycle, and dock UI
+
+### Documentation
+
+* add session handoff for Phase 2 glassmorphism UI implementation planning
+* **design:** add component patterns, feature switch, and discovery toast spec
+* **design:** add glassmorphism CSS tokens and Light/Dark recipes
+* **design:** add modern typography system spec with Plus Jakarta Sans and JetBrains Mono
+* **design:** add root DESIGN.md agent entrypoint and design system index
+* **design:** add visual direction and Gałęziowski glassmorphism study
+* **design:** resolve final review findings across styling, typography, and component patterns
+
 ## 0.30.1 (2026-11-18)
 
 ### Bug Fixes
