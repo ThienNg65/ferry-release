@@ -2,6 +2,18 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.32.0 (2026-11-18)
+
+### Features
+
+* **ui:** redesign Ferry icon with minimalist Glassmorphism and dynamic favicon sync
+* **ui:** redesign Ferry icon with minimalist Glassmorphism and dynamic favicon sync
+
+### Bug Fixes
+
+* harden SFTP close timeout, drop abort sync, and duplicate drop paths
+* stream external drops, pipeline SFTP transfers, and honor local start path
+
 ## 0.31.0 (2026-11-18)
 
 ### Features
