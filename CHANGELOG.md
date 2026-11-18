@@ -2,6 +2,42 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 0.30.0 (2026-11-18)
+
+### Features
+
+* add file visibility filter popover, counts, and pattern helper UI
+* add glob visibility filter engine and filename pattern helper
+* add per-connection file visibility filter store and persistence
+* Feat/file visibility filters
+* Feat/terminal predictive echo
+* **sites:** click selects a saved site, double-click or Enter connects
+* **sites:** harden connection lifecycle, dialogs, and WCAG 2.2 AA UX
+* **sites:** redesign site details panel and fix connecting indicators
+* **terminal:** add buffer reconciliation and password safety gates to TerminalEchoPredictor
+* **terminal:** add core TerminalEchoPredictor state machine
+* **terminal:** add predictive local echo setting and toggle
+* **terminal:** integrate Mosh-style predictive local echo into terminal stream
+
+### Bug Fixes
+
+* **files:** replace RegExp glob matcher with bounded-cost iterative matcher
+* scope bulk delete and range selection to visible filtered entries
+* scope Command Palette and pane keyboard actions to visible selected entries
+* **terminal:** await prediction flush before fit and re-arm early underline timer
+* **terminal:** clear awaitingNewlineConfirm after deferred-wrap command newline
+* **terminal:** defer predictions mid-escape, restore erased line suffixes, and preserve SGR attributes
+* **terminal:** guard predictive echo callbacks across disable and shell restart
+* **terminal:** handle combined backspace chunks, chunked enter, and wrap edge cases in TerminalEchoPredictor
+* **terminal:** handle saturated scrollback and retyped erased prefixes in predictive echo
+* **terminal:** preserve multibyte UTF-8 stream decoding across predictive echo byte chunks
+
+### Documentation
+
+* document file visibility filters and common glob patterns
+* note sites list select-vs-connect convention in PROJECT_MAP
+* **terminal:** add predictive local echo design spec and implementation plan
+
 ## 0.29.1 (2026-11-17)
 
 ### Performance Improvements
