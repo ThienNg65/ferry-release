@@ -2,6 +2,26 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 1.0.1 (2026-11-19)
+
+### Bug Fixes
+
+* isolate Quick Connect visibility filters by SSH port
+* preserve fractional bandwidth scheduling credit
+* reclaim cancelled bandwidth reservations
+* reclaim cancelled bandwidth reservations with FIFO scheduling
+* reject premature updater stream closure and test write failures
+* reject prematurely closed updater streams and enable write fault injection
+* **ui:** persist Glass UI prefs across restarts and refine Glass tab bar
+* **ui:** persist Glass UI prefs across restarts and refine Glass tab bar
+* **ui:** protect newer UI edits from in-flight settings hydration
+
+### Tests
+
+* cover bandwidth cancellation and cap changes
+* cover updater ENOSPC EACCES backpressure and premature close
+* guard sustained bandwidth throughput and bounded catch-up
+
 ## 1.0.0 (2026-11-18)
 
 ### Features
