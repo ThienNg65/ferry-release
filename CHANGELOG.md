@@ -2,6 +2,16 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 1.2.0 (2026-11-19)
+
+### Features
+
+* **branding:** refresh the Ferry app icon
+
+### Code Refactoring
+
+* **branding:** slim the Ferry mast crossbar
+
 ## 1.1.0 (2026-11-19)
 
 ### Features
