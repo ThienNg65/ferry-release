@@ -2,6 +2,22 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 1.1.0 (2026-11-19)
+
+### Features
+
+* add Arc UI motion system, responsive container polish, and glass skeleton shimmer
+
+### Bug Fixes
+
+* address security, reliability, and UI edge cases from repo audit
+* protect file workflow targets and recover waiting states
+* protect file workflow targets and recover waiting states
+* revalidate resume stamps and preserve strict file permissions
+* review symlink deletions in mirror sync
+* show confirmed paths after interrupted sync
+* **ui:** preserve horizontal trackpad scrolling in tab strips
+
 ## 1.0.1 (2026-11-19)
 
 ### Bug Fixes
