@@ -2,6 +2,13 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 1.2.1 (2026-11-19)
+
+### Bug Fixes
+
+* **ui:** fix footer wrapping, connect preload race, middle-click, and glass menu blur
+* **ui:** fix footer wrapping, connect preload race, middle-click, and glass menu blur
+
 ## 1.2.0 (2026-11-19)
 
 ### Features
