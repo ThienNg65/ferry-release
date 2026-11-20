@@ -2,6 +2,48 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 1.2.3 (2026-11-20)
+
+### Bug Fixes
+
+* close SFTP editor uploads after finish
+* compare numeric updater versions without rounding (f8a3041, c5fa882)
+* fall back to SFTP on remote listing metadata errors
+* fall back to SFTP when remote entry metadata fails
+* isolate local ZIP staging from its input tree
+* keep quiet live log tails connected (21a1d6e, 6259499)
+* preserve an existing MSIX when packing fails
+* preserve editor changes during asynchronous saves
+* preserve edits during delayed discard and editor handoff
+* preserve existing local ZIP on compression failure
+* preserve MSIX package context during sidecar startup (fdb2e15, 9f0fd7b)
+* preserve the original when remote editor staging is denied (c1cd473, 2fa2c26)
+* preserve unsynced editor copies across timestamp changes
+* reject premature local ZIP stream closure (5b6b046, 65f88d4)
+* reject premature SFTP editor upload closure
+* resume paused SFTP transfers after reconnecting (95bcad0, fcb3088)
+* stage local ZIP before replacing destination
+* verify renderer IPC in the MSIX startup smoke test
+
+### Documentation
+
+* align Ferry architecture guidance with Neutralino (b3cc2da, fba1ed7)
+
+### Code Refactoring
+
+* simplify staging cleanup
+
+### Tests
+
+* cover existing ZIP preservation and atomic replacement
+* exercise remote directory metadata failure in Python
+* fault-inject local ZIP early close, disk errors and abort
+* guard against partial fast remote listings
+* pause reconnect fixtures before completion
+* preserve real ZIP writer between fault-injection cases
+* stop terminal fixture timers between tests (55d7037, 554b9da)
+* supply connected session state to transfer fixture
+
 ## 1.2.2 (2026-11-20)
 
 ### Continuous Integration
