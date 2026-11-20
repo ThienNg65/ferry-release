@@ -2,6 +2,12 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 1.2.2 (2026-11-20)
+
+### Continuous Integration
+
+* validate Ferry MSIX packages before Store upload
+
 ## 1.2.1 (2026-11-19)
 
 ### Bug Fixes
