@@ -2,6 +2,23 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 1.3.1 (2026-11-21)
+
+### Bug Fixes
+
+* address tab-close review findings and guard SSH teardown
+* preserve graceful SSH shutdown with forced fallback on error
+* preserve terminal Ctrl+W word deletion
+* restore Site Management after closing tabs with Ctrl+W or middle-click
+* restore site picker immediately on every tab close
+
+### Tests
+
+* align tab close verification with strict TypeScript patterns
+* await file pane imports before teardown
+* format tab close regression coverage
+* wait for file pane imports before teardown
+
 ## 1.3.0 (2026-11-21)
 
 ### Features
