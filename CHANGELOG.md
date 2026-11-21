@@ -2,6 +2,30 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 1.3.0 (2026-11-21)
+
+### Features
+
+* **distribution:** prepare WinGet community package for Ferry
+
+### Bug Fixes
+
+* **a11y:** restore file grid ownership and virtual row positions
+* **ci:** verify exact release commit before publishing, closes #136
+* isolate Quick Connect bookmarks by SSH port, closes #108
+* preserve OpenSSH wildcard defaults during session import, closes #120
+* preserve remote ZIP archives on compression failure, closes #113
+* **security:** harden sidecar RPC and patch vulnerable dependencies
+* validate portable ZIP before replacing release artifact, closes #137
+
+### Documentation
+
+* add Ferry security policy
+
+### Build System
+
+* **deps-dev:** update Vite and Vitest together
+
 ## 1.2.3 (2026-11-20)
 
 ### Bug Fixes
