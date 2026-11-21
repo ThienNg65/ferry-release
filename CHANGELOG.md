@@ -2,6 +2,16 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 1.3.2 (2026-11-21)
+
+### Bug Fixes
+
+* remediate Modern Glass UI audit regressions and UX polish
+
+### Miscellaneous Chores
+
+* remove legacy Electron references and upgrade shims
+
 ## 1.3.1 (2026-11-21)
 
 ### Bug Fixes
