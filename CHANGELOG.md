@@ -2,6 +2,21 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 1.3.3 (2026-11-22)
+
+### Bug Fixes
+
+* preserve UTF-8 across SSH output chunks
+* **ssh:** preserve UTF-8 across remote output chunks
+
+### Documentation
+
+* **marketing:** add marketing kit, WinGet 1.3.2 manifests, and automated public README sync
+
+### Tests
+
+* **ssh:** clarify UTF-8 chunk boundary coverage
+
 ## 1.3.2 (2026-11-21)
 
 ### Bug Fixes
