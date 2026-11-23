@@ -2,6 +2,18 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 1.3.4 (2026-11-23)
+
+### Bug Fixes
+
+* contain sidecar RPC handler rejections across transports
+* **files:** clean staged OS drops after local moves
+* **security:** serialize DPAPI master-key initialization
+* **sessions:** avoid empty tabs state during closeTab for sync watchers
+* **ssh:** bound streamed SSH line buffers
+* **transfer:** reject symlinked tree download destinations
+* verify ownership before staged-drop cleanup
+
 ## 1.3.3 (2026-11-22)
 
 ### Bug Fixes
