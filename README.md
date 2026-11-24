@@ -1,6 +1,6 @@
 # Ferry
 
-**Files, terminal, live logs, and server monitoring in one lightweight Windows app — over a single SSH connection.**
+**Files, terminal, live logs, and server monitoring in one lightweight Windows app - over a single SSH connection.**
 
 Ferry is a fast, local-first Windows SSH/SFTP desktop workspace built for developers, sysadmins, and DevOps engineers. Stop juggling separate WinSCP, PuTTY, log tail, and monitoring windows: connect once and manage remote files, run commands, watch live logs, and inspect server health side by side.
 
@@ -30,14 +30,18 @@ Ferry is a fast, local-first Windows SSH/SFTP desktop workspace built for develo
 
 ## Download & Install
 
+<a href="https://get.microsoft.com/installer/download/9pjpwk568p53?referrer=appbadge" target="_self">
+  <img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft" />
+</a>
+
 Requires **Windows 10 or Windows 11 (64-bit)**. Choose whichever installation channel fits your workflow:
 
-1. **Microsoft Store (Recommended)** — [Get Ferry from Microsoft Store](https://apps.microsoft.com/detail/9PJPWK568P53) (or open directly via [`ms-windows-store://pdp/?productid=9PJPWK568P53`](ms-windows-store://pdp/?productid=9PJPWK568P53))
+1. **Microsoft Store (Recommended)** - [Get Ferry from Microsoft Store](https://apps.microsoft.com/detail/9PJPWK568P53) (or open directly via [`ms-windows-store://pdp/?productid=9PJPWK568P53`](ms-windows-store://pdp/?productid=9PJPWK568P53))
    - 1-click Store-trusted install with **no Windows SmartScreen warning** and automatic Store updates.
-2. **Direct Windows Installer (`Ferry-Setup-*.exe`)** — [Download from GitHub Releases](../../releases/latest)
+2. **Direct Windows Installer (`Ferry-Setup-*.exe`)** - [Download from GitHub Releases](../../releases/latest)
    - Lightweight (~23 MB) NSIS installer with built-in automatic updates from this repository.
    - *Note:* The direct `.exe` installer is currently unsigned, so Windows SmartScreen may ask you to confirm (`More info` → `Run anyway`) on first run. Prefer the Microsoft Store build if you want a signed install.
-3. **Portable ZIP (`Ferry-Portable-*-win-x64.zip`)** — [Download from GitHub Releases](../../releases/latest)
+3. **Portable ZIP (`Ferry-Portable-*-win-x64.zip`)** - [Download from GitHub Releases](../../releases/latest)
    - Zero-install archive for jump boxes, restricted workstations, or USB drives.
 
 <details>
