@@ -2,6 +2,23 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 1.4.0 (2026-11-24)
+
+### Features
+
+* **automation:** add phase labels and Director approval gate
+
+### Bug Fixes
+
+* bound OS drag-and-drop staging entry count and depth
+* **fs:** preserve active OS-drop staging sessions
+* **monitor:** calculate process RSS with remote page size
+* **security:** scope public release token to publishing steps
+
+### Tests
+
+* isolate DPAPI tests from the installed user profile
+
 ## 1.3.4 (2026-11-23)
 
 ### Bug Fixes
