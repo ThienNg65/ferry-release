@@ -51,6 +51,10 @@ Updates are delivered through this repository's GitHub Releases (`ThienNg65/ferr
 
 Use [GitHub Issues](../../issues) for bugs and feature requests. Do not include passwords, private keys, or sensitive server details in issue reports.
 
+## Sponsor
+
+If you find Ferry useful and would like to support its development, you can sponsor me on [GitHub Sponsors](https://github.com/sponsors/ThienNg65).
+
 ## License
 
 See [LICENSE](LICENSE). Historical source releases were distributed under the MIT License; downloading an installer does not change rights already granted to earlier source releases.
