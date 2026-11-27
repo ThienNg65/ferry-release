@@ -2,6 +2,16 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 1.6.0 (2026-11-27)
+
+### Features
+
+* **companion:** audit remediation, SSE streaming, quick bar, snippets & split layout
+
+### Documentation
+
+* tighten wording in docs and UI copy
+
 ## 1.5.0 (2026-11-27)
 
 ### Features
