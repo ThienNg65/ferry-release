@@ -2,6 +2,47 @@
 
 Public release notes for Ferry. Download binaries from [Releases](../../releases).
 
+## 1.5.0 (2026-11-27)
+
+### Features
+
+* **companion:** add Ferry Companion assistant, What's New, tour, and privacy-checked issue reporting
+* **diff:** add built-in local vs remote text diff viewer
+* **files:** support Ctrl+C / Ctrl+V copy and paste for files and folders
+* **transfers:** add live bandwidth speed limit selector and MB/s unit support
+
+### Bug Fixes
+
+* **bookmarks:** guard non-array bookmarks in deleteForSite
+* **ci:** exclude fork PRs from release VERSION sync
+* **edits:** mark remote-changed conflicts as unsaved
+* **files:** include UI display preferences in FileRow v-memo
+* **files:** mount EditorDialog for local file pane
+* **fs:** fall back when POSIX rename extension fails
+* **ipc:** validate fs and sync IPC payloads at runtime
+* **ipc:** validate history, operations, and window IPC payloads
+* **palette:** hide selected file actions when disconnected
+* **privacy:** remove upgrade and migration backups during deleteAllData
+* **release:** add automated duplicate changelog guard and tests
+* **release:** reconcile stale VERSION file with Release Please manifest
+* **sites:** fall back to default OS username for PuTTY and WinSCP imports
+* **sites:** surface backup validation errors as VALIDATION SshError
+* **ssh:** propagate recursive delete timeout and cancellation
+
+### Documentation
+
+* add GitHub Sponsors FUNDING.yml and README section
+* align CI/CD runbook and README with current workflows
+
+### Miscellaneous Chores
+
+* harden logging, store migrations, timeouts, and IPC validation
+
+### Continuous Integration
+
+* align pinned Node.js version with dependency engines
+* **release:** sync VERSION file on release PR
+
 ## 1.4.0 (2026-11-24)
 
 ### Features
